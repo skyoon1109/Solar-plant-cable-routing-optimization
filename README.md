@@ -7,6 +7,8 @@
 - Significantly reduced execution time compared to manual methods
 - Methodology applicable to other renewable energy infrastructure including wind farms
 
+### 💡The detailed description is all described in the pdf file.
+
 # 🖥️Code files
 
 
@@ -56,3 +58,14 @@ $$u_{k} \in \{0, 1 \}, \quad k \in V_{0}  $$ **(12)**
 (6): Constraint ensuring no outgoing cables from junction boxes  
 (7): Constraint allowing only one junction box to be selected  
 (8): Constraint linking variables for PVA-to-Inverter connections; ensures cables can only connect to selected junction boxes  
+
+
+# 3️⃣CCW Algorithm and Lazy Constraints(To prevent crossings)
+- CCW (Counter-Clock-Wise) algorithm prevents cable crossing by determining the orientation of three points
+- Function calculates whether points are arranged clockwise, counter-clockwise, or collinear
+- CrossingCheck function uses CCW to determine if two line segments intersect
+- GetCrossingPair function identifies all crossing cable segments in the solution
+- NoCrossingCallback function dynamically adds constraints during optimization to prevent crossings
+- Uses "lazy constraints" to ensure selected cable segments don't cross each other
+- Algorithm terminates when no more crossing segments are detected during optimization
+
