@@ -20,3 +20,5 @@
 
 ![image](https://github.com/user-attachments/assets/85c100d5-08e7-4dc0-bd4b-fedc0abaf421)
 
+# 2️⃣MIP Model
+- Same
