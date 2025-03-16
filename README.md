@@ -10,7 +10,7 @@
 ### 💡The detailed description is all described in the pdf file.
 
 # 🖥️Code files
-
+code_no_crossing_max8.ipynb : Cross prevention included, and up to 8 connections per box
 
 # 1️⃣Capacitated K-means for grouping solar panels
 - Capacitated K-means is an extension of traditional K-means clustering algorithm with capacity constraints
