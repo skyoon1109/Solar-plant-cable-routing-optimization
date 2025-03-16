@@ -19,3 +19,4 @@
 - Critical for solar panel grouping to optimize cable connections while maintaining balanced load distribution
 
 ![Image](https://github.com/user-attachments/assets/e4f78b36-304b-414f-b692-d6c339743f7c)
+<img src="https://github.com/user-attachments/assets/e4f78b36-304b-414f-b692-d6c339743f7c"  width="200" height="400"/>
