@@ -18,4 +18,5 @@
 - Uses Euclidean distance to assign points to nearest clusters without exceeding capacity
 - Critical for solar panel grouping to optimize cable connections while maintaining balanced load distribution
 
-<img src="https://github.com/user-attachments/assets/e4f78b36-304b-414f-b692-d6c339743f7c"  width="700" height="720"/>
+![image](https://github.com/user-attachments/assets/85c100d5-08e7-4dc0-bd4b-fedc0abaf421)
+
