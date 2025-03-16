@@ -48,11 +48,11 @@ $$u_{k} \in \{0, 1 \}, \quad k \in V_{0}  $$ **(12)**
 
 - The objective function minimizes the total cost of cable connections in the solar power plant.
 - The first term represents the cost of connecting PVA panels to junction boxes, and second term represents the cost of connecting selected junction boxes to inverters.
-- Below is a description of the constraints.
-(2): Variable definition constraint ensuring only one cable type is selected for each connection
-(3): Flow conservation constraint ensuring the difference between incoming and outgoing flow equals 1 for each PVA node (Ph = 1, ∀h ∈ VT)
-(4): Capacity constraint ensuring flow doesn't exceed the capacity of installed cables
-(5): Constraint limiting each PVA to have exactly one outgoing cable
-(6): Constraint ensuring no outgoing cables from junction boxes
-(7): Constraint allowing only one junction box to be selected
-(8): Constraint linking variables for PVA-to-Inverter connections; ensures cables can only connect to selected junction boxes
+- Below is a description of the constraints.  
+(2): Variable definition constraint ensuring only one cable type is selected for each connection  
+(3): Flow conservation constraint ensuring the difference between incoming and outgoing flow equals 1 for each PVA node (Ph = 1, ∀h ∈ VT)  
+(4): Capacity constraint ensuring flow doesn't exceed the capacity of installed cables  
+(5): Constraint limiting each PVA to have exactly one outgoing cable  
+(6): Constraint ensuring no outgoing cables from junction boxes  
+(7): Constraint allowing only one junction box to be selected  
+(8): Constraint linking variables for PVA-to-Inverter connections; ensures cables can only connect to selected junction boxes  
